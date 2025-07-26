@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(25, 95%, 53%);
+  --primary-foreground: hsl(60, 9.1%, 97.8%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* XDS Brand Colors */
+  --xds-orange: hsl(25, 95%, 53%);
+  --xds-yellow: hsl(51, 100%, 50%);
+  --xds-green: hsl(142, 71%, 45%);
+  --xds-red: hsl(0, 74%, 42%);
+  --xds-gray: hsl(220, 9%, 46%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(25, 95%, 53%);
+  --primary-foreground: hsl(60, 9.1%, 97.8%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-xds-orange {
+    color: var(--xds-orange);
+  }
+  
+  .text-xds-yellow {
+    color: var(--xds-yellow);
+  }
+  
+  .text-xds-green {
+    color: var(--xds-green);
+  }
+  
+  .text-xds-red {
+    color: var(--xds-red);
+  }
+  
+  .text-xds-gray {
+    color: var(--xds-gray);
+  }
+  
+  .bg-xds-orange {
+    background-color: var(--xds-orange);
+  }
+  
+  .bg-xds-yellow {
+    background-color: var(--xds-yellow);
+  }
+  
+  .bg-xds-green {
+    background-color: var(--xds-green);
+  }
+  
+  .bg-xds-red {
+    background-color: var(--xds-red);
+  }
+  
+  .bg-xds-gray {
+    background-color: var(--xds-gray);
+  }
+  
+  .border-xds-orange {
+    border-color: var(--xds-orange);
+  }
+  
+  .border-xds-yellow {
+    border-color: var(--xds-yellow);
+  }
+  
+  .border-xds-green {
+    border-color: var(--xds-green);
+  }
+  
+  .border-xds-red {
+    border-color: var(--xds-red);
+  }
+  
+  .border-xds-gray {
+    border-color: var(--xds-gray);
+  }
+}

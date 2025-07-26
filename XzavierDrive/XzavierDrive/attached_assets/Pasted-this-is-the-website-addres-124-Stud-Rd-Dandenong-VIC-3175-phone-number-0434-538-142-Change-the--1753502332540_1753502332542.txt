@@ -1,0 +1,76 @@
+this is the website addres: 124 Stud Rd, Dandenong VIC 3175, phone number: 0434 538 142, Change the content of the home page based on this information, add a contact form, a sticky navigation and phone icon on both desktop and mobile devices , in the suburbs page i would like to cover all these suburbs and its closest vicroads: https://postcodez.com.au/postcodes/vic/melbourne/south-east. In every page i would like to have search by suburb search bar. In Drive test info page: I would like to cover: VicRoads Address, opening hours, Drive Test Stages at VicRoads Frankston
+
+Drive Test involves 2 stages:
+
+Stage 1: It involves pretty simple driving tasks. It is conducted in low risk environment.
+
+Duration: 10 mins
+
+After the end of stage 1, Licence testing officers asks you to find a safe place and pull over to the kerb. They calculate the scores for stage 1. If you are successful in stage 1, only then you can progress to stage 2
+
+Stage 2: It includes more challenging tasks. It is conducted in busy traffic atmosphere.
+
+Duration: 20 mins
+Pre-Drive Safety Check
+
+To start with you are required to perform Pre-Drive check before actual driving. It is to check your knowledge about vital controls of the vehicle. You have to identify following controls:
+
+    OPERATE
+
+Indicators
+
+Brake Lights
+
+Hazard (Emergency) Lights
+
+Headlights
+
+Washer and Wipers
+
+    POINT OUT
+
+Horn
+
+Handbrake
+
+Front Demister
+
+Rear Demister
+Critical Errors
+
+Drive test will be terminated straightaway if you commit more than 1 critical error in stage 1. Or more than 2 critical errors in whole test. These critical errors are:
+
+Too Slow
+
+Fail to Look
+
+Fail to Signal
+
+Block Pedestrian Crosswalk
+
+Mount Kerb
+
+Stall
+
+Incomplete Stop
+
+Illegal Action
+Immediate Termination Errors
+
+If you commit an immediate termination error, your drive test will be terminated straightway. These immediate termination errors are:
+
+Intervention
+
+Disobey Direction
+
+Collision
+
+Fail to Give Way
+
+Excessive Speed
+
+Stop at Dangerous Position
+
+Fail to Stop
+
+Dangerous Action, i would like to cover the topics in this site: https://transport.vic.gov.au/registration-and-licensing/licences/probationary-licence/drive-test-for-a-victorian-drivers-licence
