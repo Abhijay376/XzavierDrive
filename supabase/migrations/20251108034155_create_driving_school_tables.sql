@@ -1,65 +1,18 @@
+-- [CLEANUP] Drop tables in reverse order to avoid dependency issues (if any)
+-- This ensures a clean slate for this script
+DROP TABLE IF EXISTS reviews;
+DROP TABLE IF EXISTS faqs;
+DROP TABLE IF EXISTS suburbs;
+DROP TABLE IF EXISTS contacts;
+DROP TABLE IF EXISTS users;
+
+-- [SCHEMA] Now, create all tables from scratch
+
 /*
   # Xzavier Driving School Database Schema
-
   ## Overview
   Creates the complete database structure for the driving school website including
   user management, contact forms, suburb coverage, FAQs, and customer reviews.
-
-  ## New Tables Created
-
-  ### 1. users
-  - `id` (uuid, primary key) - Unique user identifier
-  - `username` (text, unique, not null) - Username for authentication
-  - `password` (text, not null) - Hashed password
-  - `created_at` (timestamptz) - Account creation timestamp
-
-  ### 2. contacts
-  - `id` (serial, primary key) - Auto-incrementing contact ID
-  - `name` (text, not null) - Student's full name
-  - `email` (text, not null) - Contact email address
-  - `phone` (text, not null) - Contact phone number
-  - `suburb` (text, not null) - Pickup location suburb
-  - `license_type` (text, not null) - Type of license (learner, probationary, full, international)
-  - `experience` (text, not null) - Driving experience level
-  - `preferred_time` (text, not null) - Preferred lesson time
-  - `message` (text) - Additional message or requirements
-  - `created_at` (timestamptz) - Submission timestamp
-  - `status` (text) - Contact status (new, contacted, scheduled, converted)
-
-  ### 3. suburbs
-  - `id` (serial, primary key) - Auto-incrementing suburb ID
-  - `name` (text, not null) - Suburb name
-  - `postcode` (text, not null) - Suburb postcode
-  - `nearest_vicroads` (text, not null) - Nearest VicRoads testing center
-  - `distance` (text, not null) - Distance to VicRoads center
-  - `region` (text, not null) - Region classification
-  - `slug` (text, unique, not null) - URL-friendly suburb identifier
-  - `created_at` (timestamptz) - Record creation timestamp
-
-  ### 4. faqs
-  - `id` (serial, primary key) - Auto-incrementing FAQ ID
-  - `question` (text, not null) - FAQ question
-  - `answer` (text, not null) - FAQ answer
-  - `category` (text, not null) - FAQ category
-  - `display_order` (int) - Order for display
-  - `is_active` (boolean) - Whether FAQ is active
-  - `created_at` (timestamptz) - Record creation timestamp
-
-  ### 5. reviews
-  - `id` (serial, primary key) - Auto-incrementing review ID
-  - `name` (text, not null) - Reviewer name
-  - `rating` (int, not null) - Rating (1-5 stars)
-  - `text` (text, not null) - Review content
-  - `location` (text, not null) - Test location or suburb
-  - `verified` (boolean) - Whether review is verified
-  - `is_featured` (boolean) - Whether to feature on homepage
-  - `created_at` (timestamptz) - Review submission timestamp
-
-  ## Security Implementation
-  - Row Level Security (RLS) enabled on all tables
-  - Public read access for suburbs, faqs, and reviews
-  - Authenticated write access for contacts
-  - Admin-only access for managing data
 */
 
 -- Create users table
