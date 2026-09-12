@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="X Zavier Driving School (XDS) — driving instructor Dandenong and VicRoads drive test preparation for Frankston, Mooroolbark, Pakenham East and Heatherton. 4.9★ from 105+ Google reviews.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="X Zavier Driving School | Driving Instructor Dandenong & VicRoads Test Specialists">
+  <meta property="og:description" content="VicRoads test preparation, driving lessons and test-day car hire with accredited instructors across Melbourne's south-east.">
+  <meta property="og:locale" content="en_AU">
+  <title>X Zavier Driving School | Driving Instructor Dandenong & VicRoads Test Specialists</title>
+
+  <style>
+    :root{
+      --navy:#0f172a;--navy2:#111c34;--red:#dc2626;--red2:#b91c1c;--gold:#fbbf24;
+      --ink:#172033;--muted:#64748b;--line:#e2e8f0;--soft:#f8fafc;--white:#fff;
+      --green:#16a34a;--shadow:0 18px 50px rgba(15,23,42,.10);--radius:22px;
+      --header-h:76px;--max:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:96px}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit}
+    button{cursor:pointer}
+    img{max-width:100%}
+    .container{width:min(var(--max),calc(100% - 36px));margin-inline:auto}
+    .skip{position:absolute;left:-999px;top:6px;background:#fff;padding:10px 14px;z-index:999;border-radius:10px}.skip:focus{left:10px}
+
+    .site-header{position:fixed;top:0;left:0;right:0;height:var(--header-h);z-index:1000;background:rgba(15,23,42,.97);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+    .header-inner{height:100%;display:flex;align-items:center;gap:18px}
+    .brand{display:flex;align-items:center;gap:11px;color:#fff;font-weight:900;letter-spacing:-.02em;white-space:nowrap}
+    .logo-mark{display:grid;grid-template-columns:1fr 1fr;gap:3px;width:48px;height:48px;background:#fff;border-radius:12px;padding:5px;box-shadow:0 7px 20px rgba(0,0,0,.22)}
+    .plate{display:grid;place-items:center;border-radius:7px;color:#111827;font-weight:950;font-size:18px;border:2px solid #111827;line-height:1}
+    .plate.l{background:#facc15}.plate.p{background:#ef4444;color:#fff;border-color:#fff}
+    .brand-text span{display:block;font-size:18px;line-height:1}.brand-text small{display:block;font-size:10px;letter-spacing:.12em;color:#cbd5e1;margin-top:4px}
+    .nav{display:flex;align-items:center;gap:5px;margin-left:auto}.nav a{color:#dbeafe;font-size:14px;font-weight:750;padding:9px 10px;border-radius:9px}.nav a:hover,.nav a.active{background:rgba(255,255,255,.1);color:#fff}
+    .header-actions{display:flex;align-items:center;gap:9px}.phone{color:#fff;font-weight:850;font-size:14px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:12px;padding:12px 16px;font-weight:850;transition:.18s ease;line-height:1.1}.btn:hover{transform:translateY(-1px)}
+    .btn-red{background:var(--red);color:#fff;box-shadow:0 7px 20px rgba(220,38,38,.22)}.btn-red:hover{background:var(--red2)}
+    .btn-gold{background:var(--gold);color:#111827}.btn-white{background:#fff;color:var(--navy);border:1px solid var(--line)}.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.25)}
+    .btn-dark{background:var(--navy);color:#fff}.btn-sm{padding:10px 13px;font-size:13px}
+    .menu-btn{display:none;margin-left:auto;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:10px 12px;font-weight:800}
+
+    main{padding-top:var(--header-h)}
+    .view{display:none}.view.active{display:block;animation:fade .22s ease}@keyframes fade{from{opacity:.15}to{opacity:1}}
+    .hero{background:radial-gradient(circle at 78% 18%,rgba(251,191,36,.14),transparent 24%),linear-gradient(135deg,#0f172a 0%,#15264b 100%);color:#fff;padding:78px 0 58px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:48px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(251,191,36,.12);border:1px solid rgba(251,191,36,.35);color:#fde68a;padding:7px 11px;border-radius:999px;font-size:12px;font-weight:900;letter-spacing:.07em;text-transform:uppercase}
+    h1,h2,h3{line-height:1.12;margin-top:0;color:var(--navy)}h1{font-size:clamp(38px,5.6vw,68px);letter-spacing:-.045em;margin:19px 0 18px;color:#fff}h2{font-size:clamp(30px,4vw,45px);letter-spacing:-.035em;margin-bottom:13px}h3{font-size:20px;margin-bottom:9px}
+    .hero p{font-size:18px;color:#dbeafe;max-width:720px}.hero-actions{display:flex;flex-wrap:wrap;gap:11px;margin:28px 0 24px}.trust-row{display:flex;flex-wrap:wrap;gap:9px}.trust-pill{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:9px 11px;border-radius:999px;font-size:12px;font-weight:800;color:#eef2ff}
+    .hero-card{background:#fff;color:var(--ink);border-radius:28px;padding:26px;box-shadow:0 28px 80px rgba(0,0,0,.28);position:relative}.hero-card:before{content:"";position:absolute;inset:10px -10px -10px 10px;border:2px solid rgba(251,191,36,.45);border-radius:28px;z-index:-1}.hero-card h2{font-size:25px}.hero-card p{font-size:14px;color:var(--muted)}
+    .search-wrap{position:relative}.search-wrap input{width:100%;padding:15px 44px 15px 15px;border:1px solid var(--line);border-radius:13px;outline:none}.search-wrap input:focus{border-color:var(--gold);box-shadow:0 0 0 4px rgba(251,191,36,.16)}
+    .search-results{margin:9px 0 0;padding:0;list-style:none;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:none}.search-results.show{display:block}.search-results button{width:100%;text-align:left;border:0;background:#fff;padding:12px 13px;border-bottom:1px solid var(--line)}.search-results li:last-child button{border-bottom:0}.search-results button:hover{background:#fffbeb}.search-results strong{display:block}.search-results span{font-size:12px;color:var(--muted)}
+    .mini-proof{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#f8fafc;border-radius:14px;padding:13px;margin-top:14px}.stars{color:#f59e0b;letter-spacing:1px;font-weight:950}.rating{font-size:22px;font-weight:950;color:var(--navy)}
+
+    .section{padding:76px 0}.section-alt{background:var(--soft)}.section-dark{background:var(--navy);color:#e2e8f0}.section-dark h2,.section-dark h3{color:#fff}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px}.section-head p{max-width:690px;color:var(--muted);margin:0}.section-dark .section-head p{color:#94a3b8}.kicker{font-size:12px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:8px}
+    .grid-5{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.benefit,.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:22px;box-shadow:0 7px 24px rgba(15,23,42,.035)}.benefit .icon,.icon-box{width:45px;height:45px;display:grid;place-items:center;border-radius:12px;background:#fff7ed;color:var(--red);font-size:22px;margin-bottom:14px}.benefit p,.card p{color:var(--muted);font-size:14px;margin-bottom:0}
+    .pricing-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}.price-card{position:relative;display:flex;flex-direction:column;min-height:350px}.price-card.featured{border:2px solid var(--gold);transform:translateY(-5px)}.price-card .tag{position:absolute;right:15px;top:15px;background:var(--gold);color:#111827;font-size:10px;font-weight:950;padding:6px 8px;border-radius:999px;text-transform:uppercase}.price{font-size:31px;font-weight:950;color:var(--navy);letter-spacing:-.04em;margin:10px 0 2px}.price-note{font-size:12px;color:var(--muted)}.features{padding:0;list-style:none;margin:19px 0 22px}.features li{font-size:14px;padding:6px 0 6px 24px;position:relative}.features li:before{content:"✓";position:absolute;left:0;color:var(--green);font-weight:950}.price-card .btn{margin-top:auto}
+    .tools-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.tool{background:#fff;border:1px solid var(--line);border-radius:25px;padding:25px;box-shadow:var(--shadow)}.tool h3{font-size:24px}.question{margin:17px 0}.question label{display:block;font-weight:850;margin-bottom:7px}.options{display:grid;gap:8px}.option{display:flex;gap:9px;align-items:flex-start;border:1px solid var(--line);border-radius:11px;padding:10px;background:#fff}.option:hover{border-color:#fbbf24}.result{display:none;margin-top:15px;padding:14px;border-radius:12px;background:#f8fafc;border-left:4px solid var(--gold)}.result.show{display:block}.select,input[type="number"],input[type="text"],input[type="email"],input[type="tel"],textarea{width:100%;padding:12px 13px;border:1px solid #cbd5e1;border-radius:11px;background:#fff;color:var(--ink)}
+
+    .reviews-strip{background:#fff}.review-top{display:grid;grid-template-columns:.8fr 1.2fr;gap:24px;align-items:stretch}.review-score{background:var(--navy);color:#fff;border-radius:24px;padding:29px}.review-score .big{font-size:58px;line-height:1;font-weight:950}.review-score p{color:#cbd5e1}.review-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.review{border:1px solid var(--line);border-radius:18px;padding:19px;background:#fff}.review p{font-size:14px;color:#475569}.review strong{display:block;margin-top:10px}.verified{font-size:11px;color:var(--green);font-weight:850}
+
+    .page-hero{padding:64px 0 44px;background:linear-gradient(135deg,var(--navy),#1d3159);color:#fff}.page-hero h1{font-size:clamp(36px,5vw,58px);margin-bottom:15px}.page-hero p{color:#dbeafe;max-width:790px}.breadcrumbs{font-size:12px;color:#bfdbfe;margin-bottom:18px}.byline{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.byline span,.byline a{font-size:12px;font-weight:800;padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.12)}
+    .content-grid{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:28px;align-items:start}.prose section{padding:0 0 30px;margin-bottom:30px;border-bottom:1px solid var(--line)}.prose section:last-child{border-bottom:0}.prose ul,.prose ol{padding-left:22px}.prose li{margin:7px 0}.info-box{background:#eff6ff;border:1px solid #bfdbfe;border-radius:17px;padding:18px;margin:18px 0}.warning{background:#fff7ed;border-color:#fed7aa}.success{background:#f0fdf4;border-color:#bbf7d0}.road-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.road{border:1px solid var(--line);border-radius:16px;padding:18px}.road .speed{display:inline-block;background:#fee2e2;color:#991b1b;font-weight:900;border-radius:999px;padding:4px 8px;font-size:12px}.sidebar{position:sticky;top:96px}.side-card{border:1px solid var(--line);border-radius:19px;padding:19px;margin-bottom:15px}.side-card strong{display:block;font-size:18px}.side-card p{font-size:13px;color:var(--muted)}
+    .table-wrap{overflow:auto;border:1px solid var(--line);border-radius:16px}table{border-collapse:collapse;width:100%;min-width:640px}th,td{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}th{background:#f8fafc;color:var(--navy);font-size:13px}td{font-size:14px}tr:last-child td{border-bottom:0}
+    .step-list{display:grid;gap:12px;counter-reset:step}.step{counter-increment:step;border:1px solid var(--line);border-radius:16px;padding:17px 17px 17px 61px;position:relative}.step:before{content:counter(step);position:absolute;left:17px;top:16px;width:31px;height:31px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-weight:900}
+
+    .faq{display:grid;gap:10px}.faq details{border:1px solid var(--line);border-radius:14px;padding:0 16px;background:#fff}.faq summary{font-weight:850;cursor:pointer;padding:15px 0}.faq p{color:var(--muted);font-size:14px}
+    footer{background:#08111f;color:#cbd5e1;padding:52px 0 26px}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:30px}.footer-title{color:#fff;font-weight:900;margin-bottom:10px}.footer-links{display:grid;gap:8px;font-size:14px}.footer-links a:hover{color:#fff}.fineprint{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;margin-top:32px;font-size:12px;color:#94a3b8}
+
+    .floating-wa{position:fixed;right:20px;bottom:20px;z-index:900;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:#22c55e;color:#fff;font-size:27px;box-shadow:0 12px 35px rgba(34,197,94,.35);border:3px solid #fff}
+    .modal{position:fixed;inset:0;background:rgba(2,6,23,.68);display:none;place-items:center;z-index:2000;padding:18px}.modal.open{display:grid}.modal-card{background:#fff;border-radius:24px;padding:24px;width:min(560px,100%);max-height:90vh;overflow:auto;position:relative}.modal-close{position:absolute;right:14px;top:14px;border:0;background:#f1f5f9;border-radius:9px;width:38px;height:38px;font-size:20px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.form-field{margin-bottom:12px}.form-field label{display:block;font-weight:800;font-size:13px;margin-bottom:5px}.full{grid-column:1/-1}
+    .notice{font-size:12px;color:var(--muted);margin-top:9px}.muted{color:var(--muted)}.center{text-align:center}.mt-0{margin-top:0}.mt-2{margin-top:20px}.hidden{display:none!important}
+
+    @media(max-width:1050px){.nav{display:none}.header-actions .phone{display:none}.grid-5{grid-template-columns:repeat(3,1fr)}.pricing-grid{grid-template-columns:1fr 1fr}.review-cards{grid-template-columns:1fr}.review-top{grid-template-columns:.65fr 1.35fr}}
+    @media(max-width:767px){:root{--header-h:68px}.container{width:min(100% - 24px,var(--max))}.site-header{height:68px}.brand-text{display:none}.logo-mark{width:43px;height:43px}.header-actions{margin-left:auto}.header-actions .btn{padding:10px 11px;font-size:12px}.menu-btn{display:block;margin-left:0}.nav.mobile-open{display:flex;position:absolute;top:68px;left:0;right:0;background:#0f172a;flex-direction:column;align-items:stretch;padding:10px 12px 16px;border-top:1px solid rgba(255,255,255,.08)}.nav.mobile-open a{padding:12px}.hero{padding:52px 0 42px}.hero-grid,.tools-grid,.review-top,.content-grid,.footer-grid{grid-template-columns:1fr}.hero-grid{gap:28px}.hero-card:before{display:none}.section{padding:56px 0}.grid-5,.pricing-grid,.road-grid{grid-template-columns:1fr}.price-card.featured{transform:none}.review-cards{grid-template-columns:1fr}.section-head{align-items:start;flex-direction:column}.sidebar{position:static}.page-hero{padding:45px 0 33px}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.floating-wa{width:52px;height:52px;right:14px;bottom:14px}}
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"DrivingSchool",
+    "name":"X Zavier Driving School",
+    "alternateName":"XDS",
+    "telephone":"+61434538142",
+    "email":"xzavierdrivingschool@gmail.com",
+    "areaServed":["Dandenong","Frankston","Seaford","Mooroolbark","Pakenham","Pakenham East","Heatherton","Melbourne South East"],
+    "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"105"},
+    "sameAs":["https://share.google/PSBVWeY83VacVhKtu","https://www.facebook.com/meddii.sha/"],
+    "description":"Driving lessons and VicRoads drive test preparation with ADI accredited instructors and 7+ years experience."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Does VicRoads Dandenong conduct drive tests?","acceptedAnswer":{"@type":"Answer","text":"XDS services learners in Dandenong, but this website does not advertise Dandenong as a drive test centre. Use the test-centre search for Frankston, Mooroolbark, Pakenham East or Heatherton."}},
+      {"@type":"Question","name":"Can I use a driving school car for my VicRoads test?","acceptedAnswer":{"@type":"Answer","text":"Yes, subject to availability and the vehicle meeting VicRoads test requirements. XDS offers test-day car hire as part of selected preparation packages."}},
+      {"@type":"Question","name":"How do I know if I am ready for the VicRoads drive test?","acceptedAnswer":{"@type":"Answer","text":"Use the XDS readiness quiz as a quick self-check, then book an instructor assessment for personalised feedback before your test."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home" aria-label="X Zavier Driving School home">
+      <span class="logo-mark" aria-hidden="true"><span class="plate l">L</span><span class="plate p">P</span></span>
+      <span class="brand-text"><span>X Zavier Driving School</span><small>XDS • VICROADS TEST PREP</small></span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home" data-route="home">Home</a>
+      <a href="#drive-test-frankston" data-route="drive-test-frankston">Frankston</a>
+      <a href="#drive-test-mooroolbark" data-route="drive-test-mooroolbark">Mooroolbark</a>
+      <a href="#drive-test-pakenham" data-route="drive-test-pakenham">Pakenham</a>
+      <a href="#drive-test-heatherton" data-route="drive-test-heatherton">Heatherton</a>
+      <a href="#readiness-quiz" data-route="readiness-quiz">Readiness Quiz</a>
+      <a href="#licence-checker" data-route="licence-checker">Licence Checker</a>
+    </nav>
+    <div class="header-actions">
+      <a class="phone" href="tel:0434538142">0434 538 142</a>
+      <a class="btn btn-red btn-sm wa" data-message="Hi XDS, I'd like to enquire about driving lessons or VicRoads test preparation." href="#">WhatsApp</a>
+      <button class="menu-btn" id="menuBtn" aria-controls="mainNav" aria-expanded="false">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HOME -->
+  <div class="view" data-view="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">★ 4.9 rating • 105+ verified Google reviews</div>
+          <h1>Driving Instructor Dandenong &amp; VicRoads Test Specialists</h1>
+          <p>Build safe driving skills, prepare for the exact demands of your VicRoads test and arrive with a clear plan. XDS supports learners across Dandenong and Melbourne’s south-east with accredited instruction and test-day preparation.</p>
+          <div class="hero-actions">
+            <a class="btn btn-red wa" data-message="Hi XDS, I'm looking for driving lessons in the Dandenong area. Can you help me choose the right lesson or test package?" href="#">WhatsApp XDS</a>
+            <button class="btn btn-ghost open-modal">Contact Form</button>
+          </div>
+          <div class="trust-row">
+            <span class="trust-pill">✓ VicRoads ADI Accredited Instructors</span>
+            <span class="trust-pill">✓ 7+ Years Experience</span>
+            <span class="trust-pill">✓ Test-Day Car Options</span>
+            <span class="trust-pill">✓ Flexible Instructor Options</span>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="VicRoads test centre finder">
+          <div class="kicker">Test centre finder</div>
+          <h2>Where is your drive test?</h2>
+          <p>Start typing your centre or suburb and jump straight to the relevant XDS preparation guide.</p>
+          <div class="search-wrap">
+            <input id="centreSearch" type="search" placeholder="Try Frankston, Mooroolbark…" autocomplete="off" aria-label="Search VicRoads test centres">
+            <ul class="search-results" id="centreResults"></ul>
+          </div>
+          <div class="mini-proof">
+            <div><div class="stars">★★★★★</div><strong>Google Reviews</strong></div>
+            <div class="center"><div class="rating">4.9</div><small class="muted">105+ reviews</small></div>
+          </div>
+          <p class="notice"><strong>Dandenong learners:</strong> XDS services Dandenong as an instructor area; we do not list Dandenong as a drive-test centre.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Why XDS</div><h2>More control over how you learn</h2></div><p>Designed around real learner needs: flexible instructors, easy planning, test-day support and straightforward package options.</p></div>
+        <div class="grid-5">
+          <article class="benefit"><div class="icon">↔</div><h3>Flexible Instructor Options</h3><p>Change instructors anytime if you need a different teaching style or schedule.</p></article>
+          <article class="benefit"><div class="icon">◷</div><h3>Convenient Online Booking</h3><p>Manage lesson enquiries 24/7 and organise times that fit your week.</p></article>
+          <article class="benefit"><div class="icon">✓</div><h3>Stress-Free Test Package</h3><p>Combine targeted pre-test practice with eligible test-day instructor car hire.</p></article>
+          <article class="benefit"><div class="icon">🎁</div><h3>Gift Vouchers</h3><p>Give practical driving lesson credit to a learner, student or family member.</p></article>
+          <article class="benefit"><div class="icon">$</div><h3>Transparent Pricing Options</h3><p>Choose single lessons or multi-lesson packages, with a confirmed quote before booking.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="packages">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Lessons &amp; test packages</div><h2>Choose the support you need</h2></div><p>Exact XDS dollar rates were not supplied for this build, so the live cards request a confirmed current quote instead of displaying invented pricing.</p></div>
+        <div class="pricing-grid">
+          <article class="card price-card"><h3>Single Lesson</h3><div class="price">Current rate</div><div class="price-note">Fixed quote before booking</div><ul class="features"><li>One-on-one instructor lesson</li><li>Skill-focused coaching</li><li>Local route practice</li><li>Actionable feedback</li></ul><a class="btn btn-dark wa" data-message="Hi XDS, what is the current price and availability for a single driving lesson?" href="#">Get single-lesson price</a></article>
+          <article class="card price-card"><h3>5-Lesson Pass</h3><div class="price">Bundle rate</div><div class="price-note">Ask for current bulk discount</div><ul class="features"><li>Five structured lessons</li><li>Progressive skills plan</li><li>Better continuity</li><li>Bulk-value option</li></ul><a class="btn btn-dark wa" data-message="Hi XDS, I'd like the current price for the 5-Lesson Pass and available bulk discount." href="#">Get 5-lesson price</a></article>
+          <article class="card price-card featured"><span class="tag">Test favourite</span><h3>Express Test Package</h3><div class="price">Test-day quote</div><div class="price-note">Based on centre &amp; booking</div><ul class="features"><li>Pre-test warm-up lesson</li><li>Test-centre preparation</li><li>Instructor car option</li><li>Test-day support</li></ul><a class="btn btn-red wa" data-message="Hi XDS, I want an Express Test Package. My test centre is [centre] and my test date/time is [date/time]. Please send the current price and availability." href="#">Check Express availability</a></article>
+          <article class="card price-card"><h3>Ultimate Test Pass Pack</h3><div class="price">Custom package</div><div class="price-note">Preparation + test-day plan</div><ul class="features"><li>Multiple prep sessions</li><li>Mock test assessment</li><li>Weak-point coaching</li><li>Test-day car option</li></ul><a class="btn btn-dark wa" data-message="Hi XDS, please quote the Ultimate Test Pass Pack. I want a full preparation plan before my VicRoads drive test." href="#">Get package quote</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Interactive preparation tools</div><h2>Quick checks before you book</h2></div><p>Use these simplified tools for an initial indication, then open the full dedicated guide for more detail.</p></div>
+        <div class="tools-grid">
+          <article class="tool">
+            <div class="icon-box">✓</div><h3>VicRoads Test Readiness Quiz</h3><p class="muted">A fast self-check across observation, speed control, gap selection and low-speed manoeuvres.</p>
+            <div class="question"><label>Can you consistently do head checks before moving laterally?</label><div class="options"><label class="option"><input type="radio" name="mini-q1" value="1"> Yes, consistently</label><label class="option"><input type="radio" name="mini-q1" value="0"> Not consistently</label></div></div>
+            <div class="question"><label>Can you maintain the posted speed without repeated prompts?</label><div class="options"><label class="option"><input type="radio" name="mini-q2" value="1"> Yes</label><label class="option"><input type="radio" name="mini-q2" value="0"> Not yet</label></div></div>
+            <button class="btn btn-dark" id="miniQuizBtn">Check readiness</button>
+            <div class="result" id="miniQuizResult"></div>
+            <a class="btn btn-white mt-2" href="#readiness-quiz">Open full readiness quiz →</a>
+          </article>
+          <article class="tool">
+            <div class="icon-box">🌏</div><h3>Overseas Licence Conversion Checker</h3><p class="muted">A simplified guide based on your Victorian residency timing and whether your overseas licence is current.</p>
+            <div class="question"><label for="miniMonths">How long have you lived / will you live in Victoria?</label><select class="select" id="miniMonths"><option value="">Choose…</option><option value="under">Less than 6 months</option><option value="over">6 months or more</option></select></div>
+            <div class="question"><label for="miniEnglish">Is your licence in English?</label><select class="select" id="miniEnglish"><option value="">Choose…</option><option value="yes">Yes</option><option value="no">No</option></select></div>
+            <button class="btn btn-dark" id="miniLicenceBtn">Check next step</button>
+            <div class="result" id="miniLicenceResult"></div>
+            <a class="btn btn-white mt-2" href="#licence-checker">Open full conversion guide →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reviews-strip" id="reviews">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Google reviews</div><h2>Trusted by Melbourne learners</h2></div><a class="btn btn-white" href="https://share.google/PSBVWeY83VacVhKtu" target="_blank" rel="noopener">View Google Business Profile ↗</a></div>
+        <div class="review-top">
+          <div class="review-score"><div class="big">4.9<span style="color:#fbbf24">★</span></div><h3>105+ verified Google reviews</h3><p>Strong social proof from learners who have used XDS for lessons and test preparation.</p><a class="btn btn-gold" href="https://share.google/PSBVWeY83VacVhKtu" target="_blank" rel="noopener">Read all Google reviews</a></div>
+          <div class="review-cards">
+            <article class="review"><div class="stars">★★★★★</div><p>“Patient, clear instruction and practical test preparation. I felt much more confident going into my test.”</p><strong>Google reviewer</strong><span class="verified">✓ Review-style placeholder — replace with approved verbatim review</span></article>
+            <article class="review"><div class="stars">★★★★★</div><p>“The lesson focused on the exact areas I needed to improve, with useful feedback I could apply straight away.”</p><strong>Google reviewer</strong><span class="verified">✓ Review-style placeholder — replace with approved verbatim review</span></article>
+            <article class="review"><div class="stars">★★★★★</div><p>“Friendly, professional and calm. The test-day preparation made the whole process much less stressful.”</p><strong>Google reviewer</strong><span class="verified">✓ Review-style placeholder — replace with approved verbatim review</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Local test preparation</div><h2>Choose your VicRoads test centre</h2></div><p>Dedicated preparation pages with centre details, test-day focus areas and WhatsApp enquiry links.</p></div>
+        <div class="pricing-grid">
+          <article class="card"><h3>Frankston / Seaford</h3><p>Hartnett Drive, Frankston–Dandenong Road, school-zone timing and residential manoeuvres.</p><a class="btn btn-white mt-2" href="#drive-test-frankston">Frankston guide →</a></article>
+          <article class="card"><h3>Mooroolbark</h3><p>Preparation for the Mooroolbark Licence Testing Centre and surrounding mixed-traffic conditions.</p><a class="btn btn-white mt-2" href="#drive-test-mooroolbark">Mooroolbark guide →</a></article>
+          <article class="card"><h3>Pakenham East</h3><p>Drive-test preparation around the current Pakenham East Licence Testing Centre.</p><a class="btn btn-white mt-2" href="#drive-test-pakenham">Pakenham guide →</a></article>
+          <article class="card"><h3>Heatherton</h3><p>Test preparation for Heatherton’s industrial, arterial and suburban driving environment.</p><a class="btn btn-white mt-2" href="#drive-test-heatherton">Heatherton guide →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><div><div class="kicker">Common questions</div><h2>Driving lessons &amp; VicRoads tests</h2></div></div>
+        <div class="faq">
+          <details><summary>Does VicRoads Dandenong conduct drive tests?</summary><p>XDS services learners in Dandenong, but this site intentionally does not create a Dandenong drive-test landing page. Use the centre finder for Frankston, Mooroolbark, Pakenham East or Heatherton test preparation.</p></details>
+          <details><summary>Can I hire an instructor car for my test?</summary><p>Ask XDS about test-day vehicle availability for your centre and booking time. The vehicle must meet VicRoads requirements on the day.</p></details>
+          <details><summary>Can I change instructors?</summary><p>Yes. Flexible instructor options are part of the XDS service approach, subject to scheduling and service-area availability.</p></details>
+          <details><summary>What is the fastest way to enquire?</summary><p>WhatsApp is the primary enquiry channel on this site. Include your suburb, test centre (if booked), date/time and current experience level.</p></details>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FRANKSTON -->
+  <div class="view" data-view="drive-test-frankston">
+    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="#home">Home</a> / Drive Test Frankston</div><div class="eyebrow">VicRoads test-centre guide</div><h1>Drive Test Frankston: Seaford Test Preparation Guide</h1><p>Scannable, local preparation for the Frankston Customer Service Centre at 71 Hartnett Drive, Seaford — including stage expectations, common fail points and vehicle checks.</p><div class="byline"><span>Reviewed by Accredited Instructor</span><a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener">Instructor: Medii Sha ↗</a><span>7+ Years Experience</span></div></div></section>
+    <section class="section"><div class="container content-grid"><article class="prose">
+      <section><div class="kicker">Centre details</div><h2>VicRoads Frankston / Seaford</h2><ul><li><strong>Location:</strong> 71 Hartnett Dr, Seaford VIC 3198.</li><li><strong>Hours:</strong> Monday to Friday, 8:30 am–4:30 pm.</li><li><strong>Public transport:</strong> Peninsula Bvd/Hartnett Dr bus stop (about 4 min walk) and Lorna St/Klauer St bus stop (about 6 min walk).</li><li><strong>Routes noted for access:</strong> 779 and 901, plus connections with the Frankston train line.</li></ul><div class="info-box"><strong>Plan to arrive early.</strong> Leave enough time for parking, document checks and settling into the car before the assessment.</div></section>
+      <section><div class="kicker">Test format</div><h2>What the drive test assesses</h2><p>The Victorian drive test is assessed across two stages. Serious errors are classed as <strong>critical errors</strong> or <strong>immediate termination errors</strong>. An immediate termination error ends the test immediately.</p><div class="road-grid"><div class="road"><h3>Stage 1 • roughly 10 minutes</h3><ul><li>Basic vehicle control.</li><li>Low-speed driving tasks.</li><li>One low-speed manoeuvre such as a reverse parallel park or three-point turn when directed.</li><li>Observation, signalling, positioning and safe decision making.</li></ul></div><div class="road"><h3>Stage 2 • roughly 20 minutes</h3><ul><li>Busier traffic conditions.</li><li>Lane changes and merging.</li><li>More complex intersections.</li><li>Higher-speed roads where suitable.</li><li>Independent, consistent safety decisions.</li></ul></div></div><div class="warning info-box"><strong>Important:</strong> Do not plan around a “15 minor faults allowed” rule as though all faults are equal. VicRoads formally distinguishes critical errors and immediate termination errors, alongside other assessed task items. Your safest target is consistent, low-risk driving rather than counting faults.</div></section>
+      <section><div class="kicker">Pre-drive safety</div><h2>Vehicle safety-check checklist</h2><ul><li>Horn operates correctly.</li><li>Indicators and hazard lights work.</li><li>Wipers and washers function.</li><li>Brake lights are operational.</li><li>Front and rear demisters work.</li><li>Doors and boot close securely.</li><li>Seat belts and mirrors are serviceable.</li><li>Tyres appear roadworthy and properly inflated.</li><li>Vehicle can be started safely with transmission in neutral/park as applicable.</li></ul></section>
+      <section><div class="kicker">Local roads &amp; fail points</div><h2>Frankston-area roads worth practising</h2><div class="road-grid">
+        <article class="road"><span class="speed">60 km/h area</span><h3>1. Hartnett Drive</h3><p>Expect an immediate need to read traffic, lane position and roundabout conditions soon after leaving the VicRoads driveway. Practise smooth observation before committing.</p></article>
+        <article class="road"><span class="speed">80 km/h sections</span><h3>2. Frankston–Dandenong Road</h3><p>Focus on high-speed gap selection, safe lane changes, mirror/head-check sequence and reaching an appropriate traffic speed without rushing.</p></article>
+        <article class="road"><span class="speed">60 / school-zone changes</span><h3>3. Klauer Street &amp; Seaford Road</h3><p>Watch posted limits closely, especially time-based school-zone signs. Change speed at the sign, not well before or after it.</p></article>
+        <article class="road"><span class="speed">40–50 km/h streets</span><h3>4. Galway Street &amp; Hadley Street</h3><p>Narrow residential conditions can test road position, observation and low-speed manoeuvre control. Keep clearance conservative and scan for parked-car hazards.</p></article>
+      </div><p class="notice">Road conditions, signage and actual test routes can change. XDS preparation focuses on transferable skills rather than promising a fixed route.</p></section>
+      <section><div class="kicker">Errors</div><h2>Immediate termination vs critical errors</h2><div class="road-grid"><div class="road"><h3>Immediate termination examples</h3><ul><li>Creating a situation where another road user must take evasive action to avoid a collision.</li><li>Mounting the kerb while driving.</li><li>Exceeding the speed limit by 5 km/h or more.</li><li>Exceeding the speed limit by any amount for a sustained period.</li><li>Other behaviour that puts road users at risk.</li></ul></div><div class="road"><h3>Critical errors</h3><p>Critical errors are serious driving mistakes recorded during the assessment but do not automatically end the test in the same way as an immediate termination error. Multiple or serious errors can lead to an unsuccessful result.</p><ul><li>Build routines for observation and signalling.</li><li>Use safe gaps, not pressured gaps.</li><li>Correct speed early and smoothly.</li><li>Maintain lane discipline and vehicle control.</li></ul></div></div></section>
+      <section><div class="kicker">Your test car</div><h2>Personal car vs XDS instructor car</h2><div class="table-wrap"><table><thead><tr><th>Check</th><th>Personal vehicle</th><th>Instructor vehicle</th></tr></thead><tbody><tr><td>Registration / roadworthiness</td><td>You must ensure it is current and suitable.</td><td>Confirm with XDS when booking.</td></tr><tr><td>Lights, tyres, mirrors, demisters</td><td>Inspect before test day.</td><td>Instructor-prepared, but still subject to day-of-test checks.</td></tr><tr><td>Familiarity</td><td>Practise in the exact car beforehand.</td><td>Book prep time in the same or similar instructor car where possible.</td></tr><tr><td>Test-day logistics</td><td>You organise arrival, supervising driver and vehicle.</td><td>Ask about a combined warm-up + car-hire package.</td></tr></tbody></table></div><div class="success info-box"><strong>Instructor:</strong> <a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener"><u>Medii Sha</u></a>. For Frankston test-day availability, send your booked date, time and licence stage by WhatsApp.</div></section>
+    </article><aside class="sidebar"><div class="side-card"><strong>Frankston test booked?</strong><p>Send the date and time for a tailored prep recommendation and car availability.</p><a class="btn btn-red wa" data-message="Hi XDS, I have a Frankston/Seaford VicRoads drive test booked for [date/time]. I'd like a prep lesson and test-day car availability." href="#">WhatsApp Frankston enquiry</a></div><div class="side-card"><strong>Not sure you’re ready?</strong><p>Run the XDS readiness quiz first.</p><a class="btn btn-white" href="#readiness-quiz">Take readiness quiz</a></div></aside></div></section>
+  </div>
+
+  <!-- GENERIC CENTRE PAGES -->
+  <div class="view" data-view="drive-test-mooroolbark">
+    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="#home">Home</a> / Drive Test Mooroolbark</div><div class="eyebrow">VicRoads test-centre preparation</div><h1>Drive Test Mooroolbark Preparation</h1><p>Targeted lessons for learners testing at the Mooroolbark Licence Testing Centre, with emphasis on observation, speed changes, lane discipline and confident suburban decision making.</p><div class="byline"><span>Reviewed by Accredited Instructor</span><a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener">Instructor: Medii Sha ↗</a></div></div></section>
+    <section class="section"><div class="container content-grid"><article class="prose"><section><h2>Mooroolbark test-day focus</h2><div class="info-box"><strong>Centre:</strong> Mooroolbark Licence Testing Centre is listed at Shop 1, 191 Hull Rd, Mooroolbark VIC 3138. Appointment requirements and services can change, so confirm your booking details with VicRoads.</div><ul><li>Practise transitions between local streets and busier roads.</li><li>Make speed changes exactly where signs apply.</li><li>Use mirror–signal–head-check routines before lateral movement.</li><li>Scan early for pedestrians, cyclists, parked-car doors and turning traffic.</li><li>Practise low-speed manoeuvres without rushing.</li></ul></section><section><h2>Your preparation plan</h2><div class="step-list"><div class="step"><strong>Baseline assessment.</strong> Identify observation, speed, positioning and gap-selection weaknesses.</div><div class="step"><strong>Local-area practice.</strong> Apply safe routines in roads similar to the test environment.</div><div class="step"><strong>Mock assessment.</strong> Drive with minimal coaching and debrief the errors.</div><div class="step"><strong>Test-day warm-up.</strong> Settle nerves and refresh the highest-risk skills.</div></div></section></article><aside class="sidebar"><div class="side-card"><strong>Mooroolbark booking?</strong><p>Send your date/time and experience level.</p><a class="btn btn-red wa" data-message="Hi XDS, I have a Mooroolbark VicRoads drive test booked for [date/time]. Can you recommend preparation lessons and confirm availability?" href="#">WhatsApp Mooroolbark enquiry</a></div></aside></div></section>
+  </div>
+
+  <div class="view" data-view="drive-test-pakenham">
+    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="#home">Home</a> / Drive Test Pakenham</div><div class="eyebrow">Pakenham East licence testing</div><h1>Drive Test Pakenham: Pakenham East Preparation</h1><p>Current drive-test preparation for Pakenham learners, centred on the Pakenham East Licence Testing Centre rather than the separate customer service centre due to open later in 2026.</p><div class="byline"><span>Reviewed by Accredited Instructor</span><a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener">Instructor: Medii Sha ↗</a></div></div></section>
+    <section class="section"><div class="container content-grid"><article class="prose"><section><h2>Current testing location</h2><div class="info-box"><strong>Pakenham East Licence Testing Centre:</strong> 129 Treloar Lane, Pakenham East VIC 3810. VicRoads currently lists Monday–Friday hours of 8:30 am–4:30 pm.</div><div class="warning info-box"><strong>Do not confuse locations:</strong> VicRoads also lists a Pakenham Customer Service Centre at 33 Exchange Drive as opening in November 2026. Check your confirmation for the exact location of your appointment.</div></section><section><h2>Skills to sharpen before test day</h2><ul><li>Roundabout approach speed and give-way decisions.</li><li>Safe lane changes using mirrors, signals and head checks.</li><li>Reading changing speed environments without prompting.</li><li>Maintaining safe following distance at suburban speeds.</li><li>Low-speed manoeuvres with continuous observation.</li></ul></section><section><h2>Best way to prepare</h2><p>Book at least one assessment lesson early enough to fix habits rather than only doing a last-minute route drive. A mock test is most useful when your instructor can remain mostly silent and assess your independent decisions.</p></section></article><aside class="sidebar"><div class="side-card"><strong>Pakenham East test?</strong><p>Send your test date/time and whether you need an instructor car.</p><a class="btn btn-red wa" data-message="Hi XDS, my drive test is at Pakenham East on [date/time]. I need [prep lesson/test-day car/both]. Please confirm availability and price." href="#">WhatsApp Pakenham enquiry</a></div></aside></div></section>
+  </div>
+
+  <div class="view" data-view="drive-test-heatherton">
+    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="#home">Home</a> / Drive Test Heatherton</div><div class="eyebrow">VicRoads test-centre preparation</div><h1>Drive Test Heatherton Preparation</h1><p>Prepare for the mix of industrial roads, suburban streets and busier traffic around Heatherton with repeatable observation and decision-making routines.</p><div class="byline"><span>Reviewed by Accredited Instructor</span><a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener">Instructor: Medii Sha ↗</a></div></div></section>
+    <section class="section"><div class="container content-grid"><article class="prose"><section><h2>Heatherton centre details</h2><div class="info-box"><strong>VicRoads Heatherton Customer Service Centre:</strong> 77 Corporate Drive, Heatherton VIC 3202. Current published hours are Monday–Friday, 8:30 am–4:30 pm.</div></section><section><h2>High-value practice areas</h2><div class="road-grid"><div class="road"><h3>Industrial-road awareness</h3><p>Scan for trucks, driveways, loading movements and vehicles emerging from commercial properties.</p></div><div class="road"><h3>Lane discipline</h3><p>Plan lane changes early and complete a full mirror–signal–head-check sequence.</p></div><div class="road"><h3>Speed control</h3><p>Read signs actively and adjust smoothly while maintaining traffic flow.</p></div><div class="road"><h3>Residential observation</h3><p>Expect parked vehicles, pedestrians, cyclists and concealed driveways.</p></div></div></section><section><h2>Test-day checklist</h2><ul><li>Bring the required licence / learner documentation.</li><li>Confirm the vehicle is compliant before leaving home.</li><li>Arrive with enough time to avoid rushing.</li><li>Use a short warm-up to settle into smooth, independent driving.</li></ul></section></article><aside class="sidebar"><div class="side-card"><strong>Heatherton test booked?</strong><p>Ask XDS about a centre-specific prep session.</p><a class="btn btn-red wa" data-message="Hi XDS, I have a Heatherton VicRoads drive test booked for [date/time]. Can I book test preparation and check instructor-car availability?" href="#">WhatsApp Heatherton enquiry</a></div></aside></div></section>
+  </div>
+
+  <!-- QUIZ -->
+  <div class="view" data-view="readiness-quiz">
+    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="#home">Home</a> / Test Readiness Quiz</div><div class="eyebrow">Free learner tool</div><h1>VicRoads Test Readiness Quiz</h1><p>A practical self-check for the habits that matter on a Victorian drive test. This is not an official VicRoads test and does not guarantee a pass.</p><div class="byline"><span>Reviewed by Accredited Instructor</span><a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener">Instructor: Medii Sha ↗</a></div></div></section>
+    <section class="section"><div class="container" style="max-width:860px"><article class="tool"><h2 class="mt-0">How test-ready are you?</h2><p class="muted">Answer based on what you can do <strong>consistently without instructor prompts</strong>.</p><form id="fullQuiz">
+      <div class="question"><label>1. Before changing lanes or moving away from the kerb, do you complete mirrors, signal and a clear head check?</label><div class="options"><label class="option"><input type="radio" name="q1" value="2"> Consistently</label><label class="option"><input type="radio" name="q1" value="1"> Usually</label><label class="option"><input type="radio" name="q1" value="0"> Not yet</label></div></div>
+      <div class="question"><label>2. Can you identify and obey speed-limit changes without reminders?</label><div class="options"><label class="option"><input type="radio" name="q2" value="2"> Consistently</label><label class="option"><input type="radio" name="q2" value="1"> Usually</label><label class="option"><input type="radio" name="q2" value="0"> Not yet</label></div></div>
+      <div class="question"><label>3. Can you choose safe gaps at roundabouts, intersections and when merging without being rushed?</label><div class="options"><label class="option"><input type="radio" name="q3" value="2"> Consistently</label><label class="option"><input type="radio" name="q3" value="1"> Usually</label><label class="option"><input type="radio" name="q3" value="0"> Not yet</label></div></div>
+      <div class="question"><label>4. Can you reverse parallel park or complete a three-point turn with controlled speed and continuous observation?</label><div class="options"><label class="option"><input type="radio" name="q4" value="2"> Consistently</label><label class="option"><input type="radio" name="q4" value="1"> Usually</label><label class="option"><input type="radio" name="q4" value="0"> Not yet</label></div></div>
+      <div class="question"><label>5. Do you keep a safe following distance and scan well ahead for hazards?</label><div class="options"><label class="option"><input type="radio" name="q5" value="2"> Consistently</label><label class="option"><input type="radio" name="q5" value="1"> Usually</label><label class="option"><input type="radio" name="q5" value="0"> Not yet</label></div></div>
+      <div class="question"><label>6. Can you drive for 20–30 minutes with minimal or no coaching?</label><div class="options"><label class="option"><input type="radio" name="q6" value="2"> Yes</label><label class="option"><input type="radio" name="q6" value="1"> Mostly</label><label class="option"><input type="radio" name="q6" value="0"> Not yet</label></div></div>
+      <button class="btn btn-red" type="submit">Calculate my readiness</button></form><div class="result" id="fullQuizResult"></div></article></div></section>
+  </div>
+
+  <!-- LICENCE CHECKER -->
+  <div class="view" data-view="licence-checker">
+    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="#home">Home</a> / Overseas Licence Conversion Checker</div><div class="eyebrow">Victoria conversion guide</div><h1>Overseas Licence Conversion Checker</h1><p>Understand the likely next step for converting an overseas car licence in Victoria. Exact requirements depend on your issuing country, age, first-licence age and driving experience.</p><div class="byline"><span>Reviewed by Accredited Instructor</span><span>Always confirm final requirements with VicRoads</span></div></div></section>
+    <section class="section"><div class="container content-grid"><article class="prose"><section><h2>Quick conversion check</h2><div class="tool"><div class="form-grid"><div class="form-field"><label for="countryGroup">Licence country / recognition</label><select id="countryGroup" class="select"><option value="">Choose…</option><option value="recognised">I believe my country is recognised</option><option value="non">I believe my country is not recognised / unsure</option></select></div><div class="form-field"><label for="vicMonths">Living in Victoria</label><select id="vicMonths" class="select"><option value="">Choose…</option><option value="under">Less than 6 months</option><option value="over">6 months or more</option></select></div><div class="form-field"><label for="licenceCurrent">Overseas licence current?</label><select id="licenceCurrent" class="select"><option value="">Choose…</option><option value="yes">Yes</option><option value="no">No / expired</option></select></div><div class="form-field"><label for="licenceEnglish">Licence in English?</label><select id="licenceEnglish" class="select"><option value="">Choose…</option><option value="yes">Yes</option><option value="no">No</option></select></div></div><button id="fullLicenceBtn" class="btn btn-dark">Show likely next step</button><div class="result" id="fullLicenceResult"></div></div></section>
+      <section><h2>Age &amp; experience: what affects the licence you receive?</h2><p>VicRoads uses your age, how old you were when your overseas licence was first issued, how long you have held it and the issuing country/jurisdiction to determine conversion requirements. The table below is a planning guide, not a substitute for VicRoads’ official requirements checker.</p><div class="table-wrap"><table><thead><tr><th>Factor</th><th>Why it matters</th><th>What to prepare</th></tr></thead><tbody><tr><td>Your current age</td><td>Victorian minimum-age rules determine whether you can receive a learner, probationary or full licence.</td><td>Passport / identity documents showing date of birth.</td></tr><tr><td>Age when first licensed</td><td>Helps VicRoads assess your recognised driving experience.</td><td>Original licence or verification evidence showing first issue date where required.</td></tr><tr><td>Time licence held</td><td>Can affect whether driving experience is credited and which Victorian licence stage applies.</td><td>Licence history / verification if the card does not show enough history.</td></tr><tr><td>Issuing country</td><td>Recognition arrangements can change whether tests are required.</td><td>Use the official VicRoads country checker for your exact jurisdiction.</td></tr></tbody></table></div></section>
+      <section><h2>Typical conversion process</h2><div class="step-list"><div class="step"><strong>Check whether conversion is required.</strong> If you plan to live in Victoria for 6 months or more, you generally need to convert your overseas licence.</div><div class="step"><strong>Confirm country-specific requirements.</strong> Recognition status determines whether some or all tests may be waived.</div><div class="step"><strong>Prepare identity and licence documents.</strong> If the licence is not in English, obtain an accepted English translation or qualifying International Driving Permit.</div><div class="step"><strong>Complete any required knowledge / road-rules steps.</strong> Your exact pathway depends on the official checker result.</div><div class="step"><strong>Complete the Hazard Perception Test if required.</strong> VicRoads may require the HPT as part of conversion.</div><div class="step"><strong>Prepare for and complete a drive test if required.</strong> XDS can help with Victorian road rules, test habits and test-day vehicle options.</div></div></section>
+      <section><div class="warning info-box"><strong>Important:</strong> If you are in Victoria for less than 6 months, a current overseas licence may be usable subject to VicRoads conditions. If it is not in English, you generally need an accepted English translation or eligible International Driving Permit to accompany it.</div></section>
+    </article><aside class="sidebar"><div class="side-card"><strong>Need a conversion drive test?</strong><p>XDS can help you adapt overseas driving experience to Victorian test expectations.</p><a class="btn btn-red wa" data-message="Hi XDS, I am converting an overseas licence and may need a Victorian drive test. My current licence country is [country] and I have [years] driving experience. Can you help?" href="#">WhatsApp conversion enquiry</a></div></aside></div></section>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><div class="footer-title">X Zavier Driving School (XDS)</div><p>Driving lessons and VicRoads test preparation across Dandenong and Melbourne’s south-east.</p><div class="stars">★★★★★ <span style="color:#cbd5e1">4.9 from 105+ Google reviews</span></div></div>
+      <div><div class="footer-title">Contact</div><div class="footer-links"><a href="tel:0434538142">0434 538 142</a><a href="mailto:xzavierdrivingschool@gmail.com">xzavierdrivingschool@gmail.com</a><a href="https://share.google/PSBVWeY83VacVhKtu" target="_blank" rel="noopener">Google Business Profile</a><a href="https://www.facebook.com/meddii.sha/" target="_blank" rel="noopener">Instructor: Medii Sha</a></div></div>
+      <div><div class="footer-title">Test prep guides</div><div class="footer-links"><a href="#drive-test-frankston">Frankston / Seaford</a><a href="#drive-test-mooroolbark">Mooroolbark</a><a href="#drive-test-pakenham">Pakenham East</a><a href="#drive-test-heatherton">Heatherton</a></div></div>
+    </div>
+    <div class="fineprint">© <span id="year"></span> X Zavier Driving School. This independent driving-school website is not VicRoads. Test-centre details, road conditions and licensing rules can change; confirm official requirements and appointment details with VicRoads before your test. Interactive tools provide general guidance only.</div>
+  </div>
+</footer>
+
+<a class="floating-wa wa" aria-label="Message XDS on WhatsApp" data-message="Hi XDS, I'd like help with driving lessons or VicRoads test preparation." href="#">✆</a>
+
+<div class="modal" id="contactModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-card">
+    <button class="modal-close" id="modalClose" aria-label="Close contact form">×</button>
+    <div class="kicker">Contact XDS</div><h2 id="modalTitle">Tell us what you need</h2><p class="muted">Submit this form to open a pre-filled WhatsApp conversation with XDS.</p>
+    <form id="contactForm"><div class="form-grid">
+      <div class="form-field"><label for="name">Name</label><input id="name" required type="text" autocomplete="name"></div>
+      <div class="form-field"><label for="phone">Phone</label><input id="phone" required type="tel" autocomplete="tel"></div>
+      <div class="form-field"><label for="suburb">Suburb</label><input id="suburb" type="text" placeholder="e.g. Dandenong"></div>
+      <div class="form-field"><label for="service">Service</label><select id="service" class="select"><option>Driving lesson</option><option>5-Lesson Pass</option><option>Test preparation</option><option>Test-day car hire</option><option>Overseas licence conversion</option><option>Gift voucher</option></select></div>
+      <div class="form-field full"><label for="message">Message</label><textarea id="message" rows="4" placeholder="Test centre, date/time, experience level or anything else we should know."></textarea></div>
+    </div><button type="submit" class="btn btn-red">Continue in WhatsApp</button><p class="notice">Or call <a href="tel:0434538142"><u>0434 538 142</u></a> / email <a href="mailto:xzavierdrivingschool@gmail.com"><u>xzavierdrivingschool@gmail.com</u></a>.</p></form>
+  </div>
+</div>
+
+<script>
+(() => {
+  const PHONE = '61434538142';
+  const routes = [...document.querySelectorAll('[data-view]')].map(v => v.dataset.view);
+  const titleMap = {
+    home: 'X Zavier Driving School | Driving Instructor Dandenong & VicRoads Test Specialists',
+    'drive-test-frankston': 'Drive Test Frankston Preparation | X Zavier Driving School',
+    'drive-test-mooroolbark': 'Drive Test Mooroolbark Preparation | X Zavier Driving School',
+    'drive-test-pakenham': 'Drive Test Pakenham East Preparation | X Zavier Driving School',
+    'drive-test-heatherton': 'Drive Test Heatherton Preparation | X Zavier Driving School',
+    'readiness-quiz': 'VicRoads Test Readiness Quiz | X Zavier Driving School',
+    'licence-checker': 'Overseas Licence Conversion Checker Victoria | X Zavier Driving School'
+  };
+
+  function route(){
+    let key = location.hash.replace('#','') || 'home';
+    if(!routes.includes(key)) key='home';
+    document.querySelectorAll('[data-view]').forEach(v=>v.classList.toggle('active',v.dataset.view===key));
+    document.querySelectorAll('[data-route]').forEach(a=>a.classList.toggle('active',a.dataset.route===key));
+    document.title = titleMap[key] || titleMap.home;
+    document.getElementById('mainNav').classList.remove('mobile-open');
+    document.getElementById('menuBtn').setAttribute('aria-expanded','false');
+    window.scrollTo({top:0,behavior:'instant'});
+  }
+  window.addEventListener('hashchange',route); route();
+
+  document.querySelectorAll('.wa').forEach(a=>{
+    const msg = a.dataset.message || 'Hi XDS, I would like to enquire.';
+    a.href = `https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}`;
+    a.target = '_blank'; a.rel='noopener';
+  });
+
+  const nav=document.getElementById('mainNav'), menu=document.getElementById('menuBtn');
+  menu.addEventListener('click',()=>{const open=nav.classList.toggle('mobile-open');menu.setAttribute('aria-expanded',String(open));});
+
+  const centres=[
+    {name:'Frankston / Seaford',note:'71 Hartnett Dr, Seaford',route:'drive-test-frankston',keys:'frankston seaford hartnett'},
+    {name:'Mooroolbark',note:'Licence Testing Centre',route:'drive-test-mooroolbark',keys:'mooroolbark hull'},
+    {name:'Pakenham East',note:'129 Treloar Lane',route:'drive-test-pakenham',keys:'pakenham pakenham east treloar'},
+    {name:'Heatherton',note:'77 Corporate Drive',route:'drive-test-heatherton',keys:'heatherton corporate'},
+    {name:'Dandenong',note:'Instructor service area — not listed here as a drive-test centre',route:'home',keys:'dandenong'}
+  ];
+  const search=document.getElementById('centreSearch'), results=document.getElementById('centreResults');
+  function renderCentres(q=''){
+    const term=q.trim().toLowerCase();
+    const list=centres.filter(c=>!term || c.keys.includes(term) || c.name.toLowerCase().includes(term));
+    results.innerHTML=list.map(c=>`<li><button type="button" data-go="${c.route}"><strong>${c.name}</strong><span>${c.note}</span></button></li>`).join('');
+    results.classList.toggle('show',Boolean(term));
+    results.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>location.hash=b.dataset.go));
+  }
+  search.addEventListener('input',e=>renderCentres(e.target.value));
+  search.addEventListener('focus',()=>{if(search.value) renderCentres(search.value)});
+
+  document.getElementById('miniQuizBtn').addEventListener('click',()=>{
+    const vals=['mini-q1','mini-q2'].map(n=>document.querySelector(`input[name="${n}"]:checked`)?.value);
+    const out=document.getElementById('miniQuizResult'); out.classList.add('show');
+    if(vals.some(v=>v===undefined)){out.innerHTML='<strong>Answer both questions first.</strong>';return;}
+    const score=vals.reduce((a,b)=>a+Number(b),0);
+    out.innerHTML=score===2?'<strong>Good signs.</strong> Your core habits sound consistent. Use the full quiz or book a mock assessment before test day.':'<strong>More practice recommended.</strong> Build consistency before relying on these skills under test pressure.';
+  });
+
+  document.getElementById('miniLicenceBtn').addEventListener('click',()=>{
+    const months=document.getElementById('miniMonths').value, eng=document.getElementById('miniEnglish').value, out=document.getElementById('miniLicenceResult'); out.classList.add('show');
+    if(!months||!eng){out.innerHTML='<strong>Choose both options first.</strong>';return;}
+    let text=months==='over'?'<strong>Conversion is likely required.</strong> If you plan to live in Victoria for 6 months or more, check your country-specific VicRoads conversion pathway.':'<strong>You may be able to keep driving on your overseas licence for now</strong> if it is current and you meet VicRoads conditions.';
+    if(eng==='no') text+=' Because the licence is not in English, you generally need an accepted English translation or eligible International Driving Permit.';
+    out.innerHTML=text;
+  });
+
+  document.getElementById('fullQuiz').addEventListener('submit',e=>{
+    e.preventDefault(); const out=document.getElementById('fullQuizResult'); let score=0, answered=0;
+    for(let i=1;i<=6;i++){const v=document.querySelector(`input[name="q${i}"]:checked`);if(v){answered++;score+=Number(v.value);}}
+    out.classList.add('show');
+    if(answered<6){out.innerHTML='<strong>Please answer all six questions.</strong>';return;}
+    let label,copy,msg;
+    if(score>=10){label='Strong readiness indicators';copy='Your answers suggest you have many of the independent habits expected on test day. A mock assessment can confirm whether they hold up under pressure.';msg='Hi XDS, I scored '+score+'/12 on the readiness quiz and want a mock test / final assessment before my VicRoads test.';}
+    else if(score>=7){label='Close, but build consistency';copy='You have a useful foundation, but a few habits may still depend on prompts or favourable conditions. Target those areas before your test.';msg='Hi XDS, I scored '+score+'/12 on the readiness quiz and want targeted lessons before my VicRoads test.';}
+    else{label='More guided practice recommended';copy='Your answers suggest several core test behaviours are not yet automatic. Focus on safe repetition before booking or attempting the test.';msg='Hi XDS, I scored '+score+'/12 on the readiness quiz and need a preparation plan to become test-ready.';}
+    out.innerHTML=`<strong>${label} — ${score}/12.</strong><br>${copy}<br><br><a class="btn btn-red" target="_blank" rel="noopener" href="https://wa.me/${PHONE}?text=${encodeURIComponent(msg)}">Discuss my result on WhatsApp</a>`;
+  });
+
+  document.getElementById('fullLicenceBtn').addEventListener('click',()=>{
+    const group=document.getElementById('countryGroup').value, months=document.getElementById('vicMonths').value, current=document.getElementById('licenceCurrent').value, english=document.getElementById('licenceEnglish').value, out=document.getElementById('fullLicenceResult');out.classList.add('show');
+    if(!group||!months||!current||!english){out.innerHTML='<strong>Please complete all four fields.</strong>';return;}
+    let parts=[];
+    if(months==='over') parts.push('<strong>You should check conversion now:</strong> living in Victoria for 6 months or more generally triggers the need to convert.'); else parts.push('<strong>You may not need to convert yet:</strong> for a stay under 6 months, a current overseas licence may be usable if VicRoads conditions are met.');
+    if(current==='no') parts.push('Because your licence is not current, your pathway may differ and needs official confirmation.');
+    if(english==='no') parts.push('Prepare an accepted English translation or eligible International Driving Permit to accompany the overseas licence.');
+    if(group==='non') parts.push('If your country is not recognised (or you are unsure), you may need testing. Use VicRoads’ official requirements checker for the exact pathway.'); else parts.push('If your country is recognised, some tests may be waived depending on your age and experience. Confirm using the official VicRoads checker.');
+    out.innerHTML=parts.join(' ');
+  });
+
+  const modal=document.getElementById('contactModal'), close=document.getElementById('modalClose');
+  const openModal=()=>{modal.classList.add('open');document.body.style.overflow='hidden';setTimeout(()=>document.getElementById('name').focus(),50)};
+  const closeModal=()=>{modal.classList.remove('open');document.body.style.overflow=''};
+  document.querySelectorAll('.open-modal').forEach(b=>b.addEventListener('click',openModal)); close.addEventListener('click',closeModal); modal.addEventListener('click',e=>{if(e.target===modal)closeModal()}); document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal()});
+  document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();const name=document.getElementById('name').value,phone=document.getElementById('phone').value,suburb=document.getElementById('suburb').value,service=document.getElementById('service').value,message=document.getElementById('message').value;const text=`Hi XDS, my name is ${name}. Phone: ${phone}. Suburb: ${suburb||'Not provided'}. I'm enquiring about: ${service}. ${message}`;window.open(`https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`,'_blank','noopener');closeModal();});
+
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
